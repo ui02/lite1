@@ -1,0 +1,52 @@
+main:
+  - title: "diary"
+    url: /diary/ 
+  - title: "murmur"
+    url: /murmur/
+  - title: "about"
+    url: /about/
+#  - title: "gallery"
+#   url: /
+#  - title: "game"
+#   url: /
+#  - title: "Categories"
+#   url: /categories/
+#  - title: "Tags"
+#   url: /tags/
+
+diary:
+  - title: Archives
+    children:
+      - title: "2026"
+        url: /archive/2026
+      - title: "2025"
+        url: /archive/2025
+      - title: "2024"
+        url: /archive/2024
+      - title: "2023"
+        url: /archive/2023
+  - title: Tags
+    children:
+      - title: "Daily life"
+        url: /tags/#daily-life
+      - title: "SHINee"
+        url: /tags/#shinee
+      - title: "Travelog"
+        url: /tags/#travelog
+
+
+murs:
+  - title: Murmurs
+    children:
+      - title: "2026"
+        url: /murmur/2026/
+      - title: "2025"
+        url: /murmur/2025/
+      - title: "2024"
+        url: /murmur/2024/
+      - title: "2023"
+        url: /murmur/2023/
+      - title: "2022"
+        url: /murmur/2022/
+      - title: "Wander"
+        url: /murmur/wander/
